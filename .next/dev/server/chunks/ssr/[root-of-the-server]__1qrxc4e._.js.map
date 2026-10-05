@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Student/Documents/ry78u/src/app/blog/[id]/comments/[commentId]/page.tsx"],"sourcesContent":["interface CommentPageProps {\r\n    params: Promise<{ id: string; commentId: string }>;\r\n}\r\n\r\nexport default async function CommentPage({ params }: CommentPageProps) {\r\n    const { id, commentId } = await params;\r\n    return (\r\n        <div>\r\n            <h1>Комментарий {commentId}</h1>\r\n            <p>К посту №{id}</p>\r\n        </div>\r\n    );\r\n}"],"names":["CommentPage","params","id","commentId"],"mappings":";;;;;;AAIe,eAAeA,YAAY,EAAEC,MAAM,EAAoB;IAClE,MAAM,EAAEC,EAAE,EAAEC,SAAS,EAAE,GAAG,MAAMF;IAChC,qBACI,8OAAC;;0BACG,8OAAC;;oBAAG;oBAAaE;;;;;;;0BACjB,8OAAC;;oBAAE;oBAAUD;;;;;;;;;;;;;AAGzB"}}]
+}

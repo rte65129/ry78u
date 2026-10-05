@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Student/Documents/ry78u/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}},
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Student/Documents/ry78u/src/app/page.tsx"],"sourcesContent":["// src/app/page.tsx\r\n'use client';\r\n\r\nimport { useState } from 'react';\r\nimport { greet } from './app/action';\r\nimport ClientDemo from './app/demo-client/page'; \r\n\r\nexport default function GreetDemo() {\r\n  const [message, setMessage] = useState('');\r\n\r\n  return (\r\n    <div>\r\n      <button onClick={async () => setMessage(await greet('Студент'))}>\r\n        Поздороваться\r\n      </button>\r\n      <p>{message}</p>\r\n      <ClientDemo />\r\n    </div>\r\n  );\r\n}\r\n"],"names":["GreetDemo","message","setMessage","onClick","greet","ClientDemo"],"mappings":";;;;;AAGA;;;;;;;;;;;AAHA,mBAAmB;AACnB;;;;;AAMe,SAASA;IACtB,MAAM,CAACC,SAASC,WAAW,GAAG,IAAA,iNAAQ,EAAC;IAEvC,qBACE,8OAAC;;0BACC,8OAAC;gBAAOC,SAAS,UAAYD,WAAW,MAAME,MAAM;0BAAa;;;;;;0BAGjE,8OAAC;0BAAGH;;;;;;0BACJ,8OAACI;;;;;;;;;;;AAGP"}}]
+}

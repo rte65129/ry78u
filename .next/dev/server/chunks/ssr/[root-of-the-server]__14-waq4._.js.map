@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Student/Documents/ry78u/src/app/blog/[id]/page.tsx"],"sourcesContent":["interface PostPageProps {\r\n    params: Promise<{ id: string }>;\r\n}\r\n\r\nexport default async function PostPage({ params }: PostPageProps) {\r\n    const { id } = await params;\r\n    return (\r\n        <div>\r\n            <h1>Пост №{id}</h1>\r\n            <p>Это содержимое поста с идентификатором {id}.</p>\r\n        </div>\r\n    );\r\n}"],"names":["PostPage","params","id"],"mappings":";;;;;;AAIe,eAAeA,SAAS,EAAEC,MAAM,EAAiB;IAC5D,MAAM,EAAEC,EAAE,EAAE,GAAG,MAAMD;IACrB,qBACI,8OAAC;;0BACG,8OAAC;;oBAAG;oBAAOC;;;;;;;0BACX,8OAAC;;oBAAE;oBAAwCA;oBAAG;;;;;;;;;;;;;AAG1D"}}]
+}

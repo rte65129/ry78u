@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Student/Documents/ry78u/src/app/blog/[id]/comments/[commentId]/template.tsx"],"sourcesContent":["import type { ReactNode } from 'react';\r\n\r\ninterface BlogTemplateProps {\r\n    children: ReactNode;\r\n}\r\n\r\nexport default function BlogTemplate({ children }: BlogTemplateProps) {\r\n    console.log('BlogTemplate смонтирован заново');\r\n    return <div>{children}</div>;\r\n}"],"names":["BlogTemplate","children","console","log"],"mappings":";;;;;;AAMe,SAASA,aAAa,EAAEC,QAAQ,EAAqB;IAChEC,QAAQC,GAAG,CAAC;IACZ,qBAAO,8OAAC;kBAAKF;;;;;;AACjB"}}]
+}

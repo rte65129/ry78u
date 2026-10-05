@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Student/Documents/ry78u/src/app/blog/[id]/comments/[commentId]/layout.tsx"],"sourcesContent":["import type { ReactNode } from 'react';\r\n\r\ninterface BlogLayoutProps {\r\n    children: ReactNode;\r\n}\r\n\r\nexport default function BlogLayout({ children }: BlogLayoutProps) {\r\n    return (\r\n        <section style={{ border: '1px solid #999', padding: '16px', marginTop: '16px' }}>\r\n            <h2>Раздел «Блог»</h2>\r\n            <p>Этот блок отрисовывается один раз и сохраняется при переходах.</p>\r\n            {children}\r\n        </section>\r\n    );\r\n}"],"names":["BlogLayout","children","style","border","padding","marginTop"],"mappings":";;;;;;AAMe,SAASA,WAAW,EAAEC,QAAQ,EAAmB;IAC5D,qBACI,8OAAC;QAAQC,OAAO;YAAEC,QAAQ;YAAkBC,SAAS;YAAQC,WAAW;QAAO;;0BAC3E,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;YACFJ;;;;;;;AAGb"}}]
+}
